@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(2, 14, 73);
+  color: wheat;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 5px; */
+  height: 12vh;
+  background-color: rgb(5, 1, 56);
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: wheat;
+}
+
+.left {
+  font-size: 1.5rem;
+  /* background-color: rgb(9, 1, 32); */
+
+}
+
+.left:hover {
+  /* background-color: #ff0000; */
+  color: #ffffff;
+  transform: scale(1.1);
+  transition: transform 0.1s ease;
+  text-decoration: underline;
+
+}
+
+nav ul li a:hover {
+  font-size: 1.02rem;
+  color: rgb(186, 186, 252);
+  /* text-decoration: underline; */
+}
+
+.firstsection {
+  font-family: 'Poppins', sans-serif;
+  margin: 23px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftsec {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+  font-size: 2.5rem;
+}
+
+.purple {
+  color: rgb(104, 3, 104);
+}
+
+pre {
+  font-family: 'Poppins', sans-serif;
+}
+
+.firstsection>div {
+  width: 30%;
+}
+
+.rightsec {
+  width: 80%;
+}
+
+.leftsec pre {
+  margin-top: 50px;
+
+}
+
+hr {
+  color: aliceblue;
+  background-color: #ffffff;
+}
+
+.secondsection {
+
+  color: aliceblue;
+  /* display: flex;
+    justify-content: center; */
+  margin: 20px 20px;
+}
+
+#about {
+  color: rgb(104, 212, 212);
+  margin: 20px 10px;
+  font-size: 2rem;
+}
+
+.secondsection div ul li {
+  margin: 10px 20px;
+}
+
+.skills {
+  font-size: 2rem;
+  color: rgb(104, 212, 212);
+  margin: 30px 30px;
+}
+
+.skill:hover {
+  text-decoration: underline;
+  color: rgb(52, 133, 226);
+  font-size: 2.02rem;
+}
+
+.elements {
+  font-size: 3rem;
+  color: rgb(104, 3, 104);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.skillabout {
+  background-color: rgb(41, 156, 118);
+  color: aliceblue;
+  border-radius: 4px;
+  border-width: 1px;
+
+  border-color: blueviolet;
+}
+
+.singleskill ul li {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.skilldetail {
+  margin: 20px 20px;
+}
+
+.fors {
+  margin: 40px 20px;
+
+}
+
+.fors span {
+  font-size: 2rem;
+  color: rgb(104, 212, 212);
+}
+
+#qualify:hover {
+  text-decoration: underline;
+  color: rgb(52, 133, 226);
+  font-size: 2.02rem;
+}
+
+.threeone {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.threetwo {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.block {
+  background-color: rgb(62, 184, 143);
+  color: black;
+  margin: 20px 20px;
+  width: 20vw;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+
+  border-radius: 10px;
+  border-color: white;
+  font-size: 1.2rem;
+}
+
+.block:hover {
+  transition: transform 0.5s ease-out;
+  transform: scale(1.3);
+  background-color: rgb(62, 20, 102);
+  color: bisque;
+}
+
+.project {
+  margin: 20px 30px;
+}
+
+.prospan {
+  color: rgb(104, 212, 212);
+  font-size: 2rem;
+}
+
+.prospan:hover {
+  text-decoration: underline;
+  font-size: 2.02rem;
+  color: rgb(52, 133, 226);
+}
+
+.twoimg {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.firstimg {
+  height: 500px;
+  width: 30vw;
+  margin: 20px 20px;
+  position: relative;
+}
+
+.secondimg {
+  height: 500px;
+  width: 30vw;
+  margin: 20px 20px;
+}
+
+.decorateimg {
+  opacity: 0.85;
+  border-style: groove;
+  border-radius: 15px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.contact {
+  margin: 20px 30px;
+}
+
+.conspan {
+  color: rgb(104, 212, 212);
+  font-size: 2rem;
+}
+
+.conspan:hover {
+  text-decoration: underline;
+  font-size: 2.02rem;
+  color: rgb(52, 133, 226);
+}
+
+footer {
+  background-color: rgb(17, 0, 0);
+  height: 45px;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot {
+  margin: 10px 10px;
+}
+.centered-line {
+  width: 80%; /* Set the desired width for the line (50% in this case) */
+  margin: 0 auto; /* Center the line within the container */
+  border: none;
+  border-top: 1px solid white; /* Set the line color and style */
+}
+/* .line{
+  width: 80vw;
+  height:2px;
+  margin-top: 25x;
+  margin-bottom: 10px;
+  background-color: white;
+} */
+
+.sixthsec{
+  height: 600px;
+}
+#niche{
+margin-top: 150px;
+
+}
+.need{
+width:100vw;
+height: 5px;
+display: flex;
+justify-content:space-around;
+}
+.vertical{
+height:2.5px;
+width:4px;
+background-color: white;
+}
+.images{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.want:hover{
+  transition: transform 0.5s ease-out;
+  transform: scale(1.3); 
+}
+.overlayimage {
+  width: 100%; /* Set the desired width for the image */
+  height: auto; /* Keep the image's aspect ratio */
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 106%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background color for the overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  opacity: 0; /* Start with 0 opacity, so it's hidden by default */
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+.overlay p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.firstimg:hover .overlayimage {
+  opacity: 0.7; /* Decrease the image opacity on hover */
+}
+
+.firstimg:hover .overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
+#doit{
+  background-color:blueviolet;
+  border-radius: 3px;
+}
